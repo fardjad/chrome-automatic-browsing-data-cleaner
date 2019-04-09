@@ -1,0 +1,18 @@
+{
+  "name": "__MSG_extName__",
+  "default_locale": "en",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Clears browsing data at startup and on exit.",
+  "homepage_url": "https://www.github.com/fardjad/chrome-automatic-browsing-data-cleaner",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "permissions": ["browsingData", "tabs"]
+}
